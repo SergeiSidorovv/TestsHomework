@@ -16,9 +16,3 @@ class Calculator:
 
         else:
             raise ArithmeticError('Недопустимые аргументы')
-
-
-if __name__ == '__main__':
-    calculator = Calculator()
-    price = calculator.calculate_discount(1000000, 8)
-    print(price)
